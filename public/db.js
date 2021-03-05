@@ -15,3 +15,16 @@ request.onsuccess = function(event) {
         checkDatabase()
     }
 };
+
+// Error handling :
+request.onerror = function(event) {
+    console.log("Error" + event.target.errorCode)
+};
+
+// Saves records into db :
+function saveRecord(record) {
+    const transaction = db.transaction(["pending"], "readwrite");
+    const store = transaction.objectStore("pending");
+    store.add(record);
+};
+
