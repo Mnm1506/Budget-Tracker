@@ -24,7 +24,8 @@
    - npm install express morgan mongoose compression
 
    ## Usage :
-    The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+    The user will be able to add expenses and deposits to their budget with or without a connection. 
+    When entering transactions offline, they should populate the total when brought back online.
 
   ## License :
   This application is covered by the MIT license.
@@ -38,7 +39,7 @@
    - HTML 16.0%
    - CSS 6.4%
    - Heroku and MongoDB Atlas (for deployment).
-   
+
   ## Questions ? :
    - Find me on GitHub : [https://github.com/Mnm1506](https://github.com/Mnm1506)
 
